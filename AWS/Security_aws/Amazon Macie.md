@@ -1,0 +1,14 @@
+[[Amazon Macie]] is a fully managed data security and data privacy service that utilizes machine learning and pattern matching to discover, classify, and protect sensitive data (medical, financial, Persional, etc.)
+- continuous, automated approach to data inventory and visibility
+- Surveys [[Amazon Simple Storage Service (S3)]] buckets and evaluates them
+	- Uses machine learning to analyze objects
+		- classifies the data in objects
+		- assigns a business values
+		- maps out where the data lives within [[AWS Organizations]]
+	- Monitors how the sensitive data is handled
+		- learns what normal handling of data is
+		- if anomalies are detected
+			- reports are generated
+- [[Amazon Macie]] integrates with AWS security Ecosystem
+	- Publish findings to [[Amazon Eventbridge]]
+		- This allows for automated responses

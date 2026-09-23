@@ -1,0 +1,29 @@
+[[AWS Organizations]] Allows Central management/governance services that allows companies to consolidate and manage multiple accounts as a single organization. Instead, the accounts are organized and structured in hierarchical groups called *Organizational Units (OU)*. Through the utilization of *Tags*, custom key-value metadata pairs that are attached to AWS resources to help categorize, manage, and secure them, for further organizing of OUs.
+- Avoids putting all resources under a single accounts
+	- isolating failures
+	- Isolating data breaches
+- Centralized/*Consolidated Billing
+	- Eliminates the management of separate invoices for every project or environment.
+	- *Combines usage across all Organizational Units under one Payer/Management account*
+		- Volume discounts
+			- Aggregated S3 storage
+			- EC2 Reserved Instance Savings
+		- Uses Tags to track charges by environments/Organizational Units.
+			- When utilized in [[AWS Billing]] *Cost Allocation Tags* itemize by environments across accounts
+			-E.G. Environment: Prod, Project: Delta, Environment: Dev
+- *Service Control Policies (SCP)* for Central Governance
+	- Sets  security guardrails applied to Root, Organizational Units, or individual accounts
+	- Maximum allowable permissions
+		- impacts all users and roles, including the root user)
+	- *Dynamic Access Control (ABAC -Attribute-Based Access Control*
+		- Use tag-based conditions in IAM policies
+			- IAM User/Group + Resource Policies = ABAC/Dynamic Access
+- Cross-Account Resource Sharing ([[AWS Resource Access Manager (RAM)]]
+	- Allows sharing of resources across accounts
+		- VPC Subnets **Not VPCs themselves**
+		- [[AWS Transit Gateway]]
+		- [[Route 53]] Resolver rules
+	- Use tags to categorize, manage, and automate cross-account resource sharing across organization subnets or [[AWS Transit Gateway]]
+		- Allows to dynamically target specific resources
+- Service Integration/ Auto-Enablement:
+	- Automatically and systemic provisioning of services across AWS CloudTrail

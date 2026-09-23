@@ -1,0 +1,1 @@
+[[Amazon Simple Queue Service (SQS)]] is a point-to-point message queuing service for decoupling heavy workloads.

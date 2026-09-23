@@ -1,0 +1,14 @@
+[[Elastic Network Interface (ENI)]] with a [[Private IP Address]] directly inside subnet.
+- Secured at the instance level
+	- must attach [[Security Group]] with ENI to control inbound and outbound traffic
+- Supported Services
+	- [[Simple Queue Service (SQS)]]
+	- [[Simple Notification Service (SNS)]]
+	- [[Systems Manager (SSM)]]
+	- [[Key Management System (KMS]]
+	- [[AWS/Amazon CloudWatch]]
+- Cost Model:
+	- Not free
+		- hourly per usage fee plus per-GB data processing
+- Hybrid Connectivity
+	- preferred choice for connecting from [[On-Premise]] to peered [[VPC]] or resources in other [[AWS Region]]

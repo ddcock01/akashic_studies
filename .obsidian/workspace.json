@@ -1,0 +1,316 @@
+{
+  "main": {
+    "id": "c69e20883772f3a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "45a0fa6f9645582d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b904d26c76f4421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Class 9.22.26 Section II"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a6eb13c7abd476d",
+    "type": "split",
+    "children": [
+      {
+        "id": "390773b2f23c24ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4883566f763041b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cc641b85623822ef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0b4c6ac43e861624",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7a7d9ea243b0c6ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f45f2dfbe3e8652c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1384c3cfaf6aee58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "79011155cf82d879",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "b8b39f92bf822425",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Storage/Amazon S3 (Simple Storage Service).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Amazon S3 (Simple Storage Service)"
+            }
+          },
+          {
+            "id": "40f1abd1f16e29b0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "baf4321ff8da3bb9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "95570ddec5641d8f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AWS Key Management Service (KMS).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "de9a370cce0674ed",
+            "type": "leaf",
+            "state": {
+              "type": "gemini-agent-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "gemini-agent-view"
+            }
+          },
+          {
+            "id": "90b62cbe5a2734b8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "d7e560cbe2b3e450",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-timeline"
+            }
+          },
+          {
+            "id": "6b55b5fc9871c224",
+            "type": "leaf",
+            "state": {
+              "type": "planner-time-tracker",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "planner-time-tracker"
+            }
+          },
+          {
+            "id": "0adcb3d148a25208",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "AWS Key Management Service (KMS).md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "839547e54ce95a8f",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "audio-recorder:Start/stop recording": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "gemini-scribe:Gemini Scribe: Agent mode": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false
+    }
+  },
+  "active": "5b904d26c76f4421",
+  "lastOpenFiles": [
+    "Linux 101.md",
+    "05_Attachments/Recording 20260923134015.m4a",
+    "05_Attachments/Recording 20260923133743.m4a",
+    "Cloud Engineering 101/Command Line Interface (CLI).md",
+    "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
+    "AWS/Management & Governance Services/AWS CloudTrail.md",
+    "Cloud Engineering 101/GitHub.md",
+    "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.21.26 Section 1.md",
+    "05_Attachments/The Linux Command Line, 2nd Edition.pdf",
+    "05_Attachments/Learn-Linux-in-a-Month-of-Lunches-Steven-Ovadia-1st-First-Edition-PS-2016-Manning-Publications-Co_-LLC-9781617293283-9bcad3954120a9b9affea5f864b2b593-Annas-Archive.pdf",
+    "Cloud Engineering 101/Visual Studio (VS) Code.md",
+    "05_Attachments/Pasted image 20260921213937.png",
+    "Repository.md",
+    "Amazon Relational Database Service (RDS).md",
+    "Cloud Engineering 101/cpg fundamentals bootcamp",
+    "AWS/Management & Governance Services/Amazon CloudWatch.md",
+    "AWS/Management & Governance Services/AWS Config.md",
+    "AWS/Management & Governance Services",
+    "AWS/Security_aws/AWS GuardDuty.md",
+    "AWS/Security_aws/AWS Identity and Access Management (IAM).md",
+    "AWS/Management & Governance Services/AWS Organizations.md",
+    "AWS/Network_aws/VPC Endpoints.md",
+    "AWS/Network_aws/AWS Global Accelerator.md",
+    "AWS/Network_aws/Amazon CloudFront (CDN).md",
+    "AWS/Compute-aws/EC2 instances.md",
+    "AWS Application Integration/Amazon Simple Queue Services (SQS).md",
+    "AWS Application Integration/Amazon Eventbridge.md",
+    "Amazon SageMaker.md",
+    "AWS Application Integration",
+    "AWS/Storage_aws/Amazon Simple Storage Service (S3).md",
+    "Availability Zones (AZ.md",
+    "AWS/Databases-AWS/Amazon ElastiCache.md",
+    "Recovery Time Objective (RTO) & Disaster Recovery (DR).md",
+    "05_Attachments/Pasted image 20260903110317.png",
+    "AWS/Databases-AWS",
+    "05_Attachments/Pasted image 20260903085020.png",
+    "AWS/Security_aws/Databases-AWS",
+    "05_Attachments/Pasted image 20260829090517.png",
+    "05_Attachments/Pasted image 20260829090410.png",
+    "05_Attachments/Pasted image 20260825105536.png",
+    "05_Attachments/Pasted image 20260825105517.png",
+    "AWS/Security_aws",
+    "05_Attachments/Pasted image 20260825082021.png",
+    "Pasted image 20260802130135.png",
+    "Pasted image 20260802150604.png"
+  ]
+}
