@@ -1,0 +1,162 @@
+{
+  "calendarSources": [
+    {
+      "type": "google",
+      "name": "Holidays in United States",
+      "color": "#42d692",
+      "id": "google_1",
+      "googleAccountId": "gcal_ddcock01@gmail.com",
+      "calendarId": "en.usa#holiday@group.v.calendar.google.com"
+    },
+    {
+      "type": "google",
+      "name": "Delta Epsilon Omega Graduate Chapter of Iota Phi Theta Fraternity, Inc.",
+      "color": "#cca6ac",
+      "id": "google_2",
+      "googleAccountId": "gcal_ddcock01@gmail.com",
+      "calendarId": "classroom104979431885894278956@group.calendar.google.com"
+    },
+    {
+      "type": "google",
+      "name": "daniel@fittestfitness.com",
+      "color": "#ffad46",
+      "id": "google_3",
+      "googleAccountId": "gcal_ddcock01@gmail.com",
+      "calendarId": "daniel@fittestfitness.com"
+    },
+    {
+      "type": "google",
+      "name": "deopolaris555@gmail.com",
+      "color": "#fad165",
+      "id": "google_4",
+      "googleAccountId": "gcal_ddcock01@gmail.com",
+      "calendarId": "deopolaris555@gmail.com"
+    },
+    {
+      "type": "google",
+      "name": "ddcock01@gmail.com",
+      "color": "#c2c2c2",
+      "id": "google_5",
+      "googleAccountId": "gcal_ddcock01@gmail.com",
+      "calendarId": "ddcock01@gmail.com"
+    }
+  ],
+  "defaultCalendarId": null,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false,
+  "clickToCreateEventFromMonthView": true,
+  "displayTimezone": "America/New_York",
+  "lastSystemTimezone": "America/New_York",
+  "enableAdvancedCategorization": false,
+  "chrono_analyser_config": null,
+  "categorySettings": [],
+  "useCustomGoogleClient": false,
+  "googleClientId": "",
+  "googleClientSecret": "",
+  "googleUseCopyPasteAuth": false,
+  "googleAccounts": [
+    {
+      "id": "gcal_ddcock01@gmail.com",
+      "email": "ddcock01@gmail.com",
+      "refreshToken": null,
+      "accessToken": null,
+      "expiryDate": 1790215158385,
+      "grantedScopes": "https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/calendar.events email"
+    }
+  ],
+  "useCustomMicrosoftClient": false,
+  "microsoftClientId": "",
+  "microsoftProxyBaseUrl": "",
+  "microsoftAccounts": [],
+  "enableLocalServer": false,
+  "localServerPort": 8540,
+  "useLegacyPlaintextCredentials": false,
+  "businessHours": {
+    "enabled": false,
+    "daysOfWeek": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "startTime": "09:00",
+    "endTime": "17:00"
+  },
+  "enableBackgroundEvents": true,
+  "enableReminders": true,
+  "enableDefaultReminder": true,
+  "defaultReminderMinutes": 10,
+  "workspaces": [],
+  "activeWorkspace": null,
+  "showEventInStatusBar": false,
+  "highlightCurrentOrNextEvent": true,
+  "enableLivePreview": true,
+  "slotMinTime": "00:00",
+  "slotMaxTime": "24:00",
+  "allDaySlot": true,
+  "timeGridDayHeaderFormat": "day-mmdd",
+  "weekends": true,
+  "hiddenDays": [],
+  "dayMaxEvents": false,
+  "activityWatch": {
+    "enabled": false,
+    "apiUrl": "http://127.0.0.1:5600",
+    "lastSyncTime": 0,
+    "autoSyncEnabled": false,
+    "autoSyncIntervalMins": 10,
+    "targetCalendarId": "",
+    "syncStrategy": "auto",
+    "customDateStart": "",
+    "customDateEnd": "",
+    "profiles": []
+  },
+  "tasksIntegration": {
+    "backlogDateTarget": "scheduledDate",
+    "calendarDisplayDateTarget": "scheduledDate",
+    "openEditModalAfterBacklogDrop": false,
+    "taskDisplayFormat": "dayPlanner",
+    "includeGlobalQueryInBacklog": false,
+    "backlogQuery": ""
+  },
+  "fcrReminderCompanion": {
+    "enabled": false,
+    "apiUrl": "http://127.0.0.1:45677"
+  },
+  "apiTokens": {},
+  "authorizedTokens": {},
+  "milestones": {
+    "counters": {},
+    "unlockedAt": {},
+    "shown": {}
+  },
+  "enableMonthlyStatsReport": false,
+  "lastMonthlyMilestonesGeneratedMonth": null,
+  "lastMonthlyMilestonesCheckDate": null,
+  "milestoneNotifierDuration": 8000,
+  "currentVersion": "0.13.6",
+  "linkedNotesDirectory": "",
+  "linkedNoteLinkStrategy": "deadline",
+  "taskBacklogLastProviderId": "",
+  "caldavTaskInboxLastCalendarId": "",
+  "linkedNoteTemplate": "# {{title}}\n\n**Date**: {{date}}\n**Time**: {{timeString}}\n**Location**: {{location}}\n**Calendar**: {{calendarName}}\n\n## Description\n{{description}}\n\n## Notes\n- ",
+  "enableLinkedNoteTemplatesPreset": false,
+  "linkedNoteTemplatesPresets": [],
+  "weatherCity": "",
+  "weatherLatitude": null,
+  "weatherLongitude": null,
+  "weatherHide": false,
+  "weatherInputMode": "city",
+  "weatherUnit": "C",
+  "openDailyNoteOnDateClick": true,
+  "breakTimer": {
+    "enabled": false,
+    "intervalMins": 60,
+    "idleThresholdMins": 30,
+    "breakDurationSecs": 30
+  }
+}

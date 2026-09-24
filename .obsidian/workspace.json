@@ -8,17 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5b904d26c76f4421",
+            "id": "d0ca8a8a9a43b926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
+                "file": "Amazon Lightsail.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class 9.22.26 Section II"
+              "title": "Amazon Lightsail"
+            }
+          },
+          {
+            "id": "578d432327aff50c",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
             }
           }
         ]
@@ -187,16 +197,6 @@
             }
           },
           {
-            "id": "90b62cbe5a2734b8",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
-            }
-          },
-          {
             "id": "d7e560cbe2b3e450",
             "type": "leaf",
             "state": {
@@ -262,55 +262,58 @@
       "gemini-scribe:Gemini Scribe: Agent mode": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-day-planner:Open Timeline": false,
-      "obsidian-day-planner:Open Multi-Day View": false
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "full-calendar-remastered:Open Full Calendar": false,
+      "full-calendar-remastered:FCR Command": false
     }
   },
-  "active": "5b904d26c76f4421",
+  "active": "d0ca8a8a9a43b926",
   "lastOpenFiles": [
-    "Linux 101.md",
-    "05_Attachments/Recording 20260923134015.m4a",
-    "05_Attachments/Recording 20260923133743.m4a",
+    "AWS/Compute-aws/Amazon Fargate.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_section_iii.md",
+    "05_Attachments/Pasted image 20260923215508.png",
+    "AWS/Compute-aws/Amazon Elastic Kubernetes Service (EKS).md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/09_23_2026_script.sh~",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/09_23_2026_script.sh",
+    "AWS/Management & Governance Services/Amazon CloudWatch.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.21.26_section_i.md",
+    "05_Attachments/Pasted image 20260923211608.png",
+    "Mastering Terraform and Infrastructure as Code.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/Class 9.22.26 Section II.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.22.26_section_ii.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_Section_III",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/Class 9.21.26 Section 1.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp",
+    "cloud_engineering_101/cpg fundamentals bootcamp/class_9.23.26_Section_III",
+    "cloud_engineering_101/class_9.23.26_Section_III",
+    "class_9.23.26_Section_III",
     "Cloud Engineering 101/Command Line Interface (CLI).md",
+    "cloud_engineering_101/Networking/Ip Address.md",
+    "cloud_engineering_101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
+    "cloud_engineering_101/cpg fundamentals bootcamp/Class 9.21.26 Section 1.md",
+    "cloud_engineering_101/Networking",
+    "cloud_engineering_101/Linux 101.md",
+    "cloud_engineering_101/GitHub.md",
+    "cloud_engineering_101/Visual Studio (VS) Code.md",
+    "cloud_engineering_101/cpg fundamentals bootcamp",
+    "cloud_engineering_101/Command Line Interface (CLI).md",
+    "cloud_engineering_101",
     "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
-    "AWS/Management & Governance Services/AWS CloudTrail.md",
     "Cloud Engineering 101/GitHub.md",
+    "Class 9.23.26 Section III.md",
+    "05_Attachments/Pasted image 20260923171229.png",
+    "README.md",
+    "Cloud Engineering 101/Linux 101.md",
+    "AWS/Management & Governance Services/AWS CloudTrail.md",
     "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.21.26 Section 1.md",
-    "05_Attachments/The Linux Command Line, 2nd Edition.pdf",
-    "05_Attachments/Learn-Linux-in-a-Month-of-Lunches-Steven-Ovadia-1st-First-Edition-PS-2016-Manning-Publications-Co_-LLC-9781617293283-9bcad3954120a9b9affea5f864b2b593-Annas-Archive.pdf",
     "Cloud Engineering 101/Visual Studio (VS) Code.md",
     "05_Attachments/Pasted image 20260921213937.png",
     "Repository.md",
-    "Amazon Relational Database Service (RDS).md",
-    "Cloud Engineering 101/cpg fundamentals bootcamp",
-    "AWS/Management & Governance Services/Amazon CloudWatch.md",
-    "AWS/Management & Governance Services/AWS Config.md",
-    "AWS/Management & Governance Services",
-    "AWS/Security_aws/AWS GuardDuty.md",
-    "AWS/Security_aws/AWS Identity and Access Management (IAM).md",
-    "AWS/Management & Governance Services/AWS Organizations.md",
-    "AWS/Network_aws/VPC Endpoints.md",
-    "AWS/Network_aws/AWS Global Accelerator.md",
-    "AWS/Network_aws/Amazon CloudFront (CDN).md",
-    "AWS/Compute-aws/EC2 instances.md",
-    "AWS Application Integration/Amazon Simple Queue Services (SQS).md",
-    "AWS Application Integration/Amazon Eventbridge.md",
-    "Amazon SageMaker.md",
-    "AWS Application Integration",
-    "AWS/Storage_aws/Amazon Simple Storage Service (S3).md",
-    "Availability Zones (AZ.md",
-    "AWS/Databases-AWS/Amazon ElastiCache.md",
-    "Recovery Time Objective (RTO) & Disaster Recovery (DR).md",
     "05_Attachments/Pasted image 20260903110317.png",
-    "AWS/Databases-AWS",
     "05_Attachments/Pasted image 20260903085020.png",
-    "AWS/Security_aws/Databases-AWS",
     "05_Attachments/Pasted image 20260829090517.png",
     "05_Attachments/Pasted image 20260829090410.png",
     "05_Attachments/Pasted image 20260825105536.png",
-    "05_Attachments/Pasted image 20260825105517.png",
-    "AWS/Security_aws",
-    "05_Attachments/Pasted image 20260825082021.png",
-    "Pasted image 20260802130135.png",
-    "Pasted image 20260802150604.png"
+    "05_Attachments/Pasted image 20260825105517.png"
   ]
 }

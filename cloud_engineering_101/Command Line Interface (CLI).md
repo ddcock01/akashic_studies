@@ -51,6 +51,13 @@ Basic [[Command Line Interface (CLI)]]
 | vi                                  | text editor                                                                                                                                                                     |
 | :q                                  | quit                                                                                                                                                                            |
 | wc                                  | wc = word count. Used to cound lines, words, characters, and bytes in text files or pipeline output.                                                                            |
+| type                                | how a command name is interpreted                                                                                                                                               |
+| which                               | display which executable program will be executed                                                                                                                               |
+| help                                | help for shell builtins                                                                                                                                                         |
+| apropos                             | Display a command's manual page                                                                                                                                                 |
+| info                                | Display a list of appropriate commands                                                                                                                                          |
+| whatis                              | display one-line manual page descriptions                                                                                                                                       |
+| alias                               | Create an alias for a command                                                                                                                                                   |
 | Code .                              | Open [[Visual Studio (VS) Code]]                                                                                                                                                |
 
 - What passes after the - is an argument.
@@ -61,9 +68,17 @@ Basic [[Command Line Interface (CLI)]]
 	- .. parent directory
 - You can only delete parent directory when it is empty.
 Line structure
-arguments
-Pipes
-strings
-options
+- Command= an executable program
+	- compiled binaries
+		- programs written in C and C++
+	- Scripting Languages
+		- shell, python etc.
+	- Shell functions
+	- Alias:  commands that we define ourselves, designed form other commands
+- Shell functions
+- arguments
+- Pipes
+- strings
+- options
 
 ![[Pasted image 20260921213937.png]]============

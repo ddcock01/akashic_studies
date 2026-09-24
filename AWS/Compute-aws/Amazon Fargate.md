@@ -1,3 +1,4 @@
  *Problem Solved:* Cluster management. Even with [[AWS Elastic Container Service (ECS)]] or [[Amazon Elastic Kubernetes Service (EKS)]], you usually have to manage the underlying [[EC2 instances]] (the "Data Plane"). [[Amazon Fargate]] is the "Serverless for Containers" engine; you simply define the CPU and memory for your container, and AWS manages the underlying server entirely.
 
+
 #container #compute #serverless
