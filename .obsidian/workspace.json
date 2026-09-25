@@ -6,6 +6,7 @@
       {
         "id": "45a0fa6f9645582d",
         "type": "tabs",
+        "dimension": 26.40750670241287,
         "children": [
           {
             "id": "d0ca8a8a9a43b926",
@@ -13,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon Lightsail.md",
+                "file": "cloud_engineering_101/Linux 101.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Lightsail"
+              "title": "Linux 101"
             }
           },
           {
@@ -30,8 +31,101 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "3d70f69ed33eb3a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "f5373f607521083d",
+        "type": "tabs",
+        "dimension": 73.59249329758714,
+        "children": [
+          {
+            "id": "4aaf1f9c23cc6056",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cloud_engineering_101/Command Line Interface (CLI).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Command Line Interface (CLI)"
+            }
+          },
+          {
+            "id": "fb2047bb6a23bc6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cloud_engineering_101/Linux 101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux 101"
+            }
+          },
+          {
+            "id": "f5b1de4f24562252",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_section_iii.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "class_9.23.26_section_iii"
+            }
+          },
+          {
+            "id": "0af7bef6cc16e33f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python"
+            }
+          },
+          {
+            "id": "1802b3c8db4e5442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.24.26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "class_9.24.26"
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f45f2dfbe3e8652c",
@@ -192,8 +287,8 @@
             "state": {
               "type": "gemini-agent-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "gemini-agent-view"
+              "icon": "sparkles",
+              "title": "Agent mode"
             }
           },
           {
@@ -243,7 +338,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -267,53 +362,52 @@
       "full-calendar-remastered:FCR Command": false
     }
   },
-  "active": "d0ca8a8a9a43b926",
+  "active": "f5b1de4f24562252",
   "lastOpenFiles": [
-    "AWS/Compute-aws/Amazon Fargate.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.24.26.md",
+    "05_Attachments/Pasted image 20260924214504.png",
+    "Python.md",
+    "05_Attachments/Pasted image 20260924212055.png",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_section_iii.md",
-    "05_Attachments/Pasted image 20260923215508.png",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/fight_game.py",
+    "05_Attachments/Pasted image 20260924202802.png",
+    "05_Attachments/Pasted image 20260924195722.png",
+    "05_Attachments/Pasted image 20260924181342.png",
+    "05_Attachments/Pasted image 20260924171830.png",
+    "05_Attachments/Pasted image 20260924171252.png",
+    "gemini-scribe/Agent-Sessions/Agent Session 2026-09-24.md",
+    "05_Attachments/Pasted image 20260924165243.png",
+    "Excalidraw/Drawing 2026-09-24 16.48.32.excalidraw.md",
+    "Excalidraw",
+    "05_Attachments/Pasted image 20260924164753.png",
+    "05_Attachments/Pasted image 20260924164326.png",
+    "05_Attachments/Python Distilled.pdf",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.22.26_section_ii.md",
+    "cloud_engineering_101/Linux 101.md",
+    "cloud_engineering_101/Command Line Interface (CLI).md",
+    "AWS Elastic Load Balancer (ELB).md",
+    "AWS/Security_aws/AWS Shield.md",
+    "AWS DataSync.md",
+    "AWS/Network_aws/AWS Global Accelerator.md",
+    "AWS Database Migration Service (AWS DMS).md",
+    "Domain 4 Design Cost-Optimized Architectures.md",
+    "AWS/AWS Site-to-Site VPN.md",
+    "AWS Direct Connect (DX).md",
+    "AWS Elastic Container Service (ECS).md",
+    "AWS/Amazon Cloudfront (Content Delivery Network (CDN)).md",
+    "AWS/Amazon SageMaker.md",
+    "AWS/Databases-AWS/Amazon Relational Database Service (RDS).md",
+    "AWS/Compute-aws/Amazon Lightsail.md",
+    "AWS/Compute-aws/Amazon Fargate.md",
     "AWS/Compute-aws/Amazon Elastic Kubernetes Service (EKS).md",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/09_23_2026_script.sh~",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/09_23_2026_script.sh",
     "AWS/Management & Governance Services/Amazon CloudWatch.md",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.21.26_section_i.md",
-    "05_Attachments/Pasted image 20260923211608.png",
-    "Mastering Terraform and Infrastructure as Code.md",
-    "cloud_engineering_101/cpg_fundamentals_bootcamp/Class 9.22.26 Section II.md",
-    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.22.26_section_ii.md",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_Section_III",
-    "cloud_engineering_101/cpg_fundamentals_bootcamp/Class 9.21.26 Section 1.md",
     "cloud_engineering_101/cpg_fundamentals_bootcamp",
     "cloud_engineering_101/cpg fundamentals bootcamp/class_9.23.26_Section_III",
     "cloud_engineering_101/class_9.23.26_Section_III",
-    "class_9.23.26_Section_III",
-    "Cloud Engineering 101/Command Line Interface (CLI).md",
-    "cloud_engineering_101/Networking/Ip Address.md",
-    "cloud_engineering_101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
-    "cloud_engineering_101/cpg fundamentals bootcamp/Class 9.21.26 Section 1.md",
-    "cloud_engineering_101/Networking",
-    "cloud_engineering_101/Linux 101.md",
-    "cloud_engineering_101/GitHub.md",
-    "cloud_engineering_101/Visual Studio (VS) Code.md",
-    "cloud_engineering_101/cpg fundamentals bootcamp",
-    "cloud_engineering_101/Command Line Interface (CLI).md",
-    "cloud_engineering_101",
-    "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.22.26 Section II.md",
-    "Cloud Engineering 101/GitHub.md",
-    "Class 9.23.26 Section III.md",
-    "05_Attachments/Pasted image 20260923171229.png",
-    "README.md",
-    "Cloud Engineering 101/Linux 101.md",
-    "AWS/Management & Governance Services/AWS CloudTrail.md",
-    "Cloud Engineering 101/cpg fundamentals bootcamp/Class 9.21.26 Section 1.md",
-    "Cloud Engineering 101/Visual Studio (VS) Code.md",
-    "05_Attachments/Pasted image 20260921213937.png",
-    "Repository.md",
-    "05_Attachments/Pasted image 20260903110317.png",
-    "05_Attachments/Pasted image 20260903085020.png",
-    "05_Attachments/Pasted image 20260829090517.png",
-    "05_Attachments/Pasted image 20260829090410.png",
-    "05_Attachments/Pasted image 20260825105536.png",
-    "05_Attachments/Pasted image 20260825105517.png"
+    "class_9.23.26_Section_III"
   ]
 }
