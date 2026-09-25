@@ -17,33 +17,51 @@
 - *Subdirectory*
 Being able to examine text files are important. Sometimes they're just information; human-readable text. Other times they are functional *scripts* that program applications. the command less let's us examine to figure out what the contents of such a *txt* file may be. 
 
-| Commands                                       | Funtion                                                       |
-| ---------------------------------------------- | ------------------------------------------------------------- |
-| .                                              | working directory                                             |
-| ..                                             | working directories parent directory                          |
-| <br><br>![[Recording 20260923134015.m4a]]<br>* | Matches any characters                                        |
-| ?                                              | Matches any single character                                  |
-| [characters]                                   | Matches any character that is a member of the set characters  |
-| [!characters]                                  | Matches any character that is a member of the set characters  |
-| [:class:]                                      | Matches any character that is a member of the specified class |
-| [:alnum:]                                      | Matches any alphanumeric                                      |
-| [:alpha:]                                      | Matches any alphabetic character                              |
-| [:digit:]                                      | Matches any numeral                                           |
-| [:lower:]                                      | matches any lowercase letter                                  |
-| [:upper:]                                      | Matches any uppercase letter                                  |
-| pwd                                            | Print Current Directory                                       |
-| cd                                             | Change directory                                              |
-| cd -                                           | Changes working directory to Previous directory               |
-| cd ~ user_name                                 | Changes working directory to the home directory of user_name. |
-| ls                                             | list directory contents                                       |
-| file                                           | determine file type                                           |
-| less                                           | view file content                                             |
-| date                                           | displace dates                                                |
-| Cal                                            | displace calendar                                             |
-| df                                             | Displays space                                                |
-| free                                           | amount of free space                                          |
-| ln                                             | Create hard and symbolic links                                |
-| exit                                           | end terminal section                                          |
+| Commands                                       | Funtion                                                                                                 |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| .                                              | working directory                                                                                       |
+| ..                                             | working directories parent directory                                                                    |
+| <br><br>![[Recording 20260923134015.m4a]]<br>* | Matches any characters                                                                                  |
+| ?                                              | Matches any single character                                                                            |
+| [characters]                                   | Matches any character that is a member of the set characters                                            |
+| [!characters]                                  | Matches any character that is a member of the set characters                                            |
+| [:class:]                                      | Matches any character that is a member of the specified class                                           |
+| [:alnum:]                                      | Matches any alphanumeric                                                                                |
+| [:alpha:]                                      | Matches any alphabetic character                                                                        |
+| [:digit:]                                      | Matches any numeral                                                                                     |
+| [:lower:]                                      | matches any lowercase letter                                                                            |
+| [:upper:]                                      | Matches any uppercase letter                                                                            |
+| pwd                                            | Print Current Directory                                                                                 |
+| cd                                             | Change directory                                                                                        |
+| cd -                                           | Changes working directory to Previous directory                                                         |
+| cd ~ user_name                                 | Changes working directory to the home directory of user_name.                                           |
+| ls                                             | list directory contents                                                                                 |
+| file                                           | determine file type                                                                                     |
+| less                                           | view file content                                                                                       |
+| date                                           | displace dates                                                                                          |
+| Cal                                            | displace calendar                                                                                       |
+| df                                             | Displays space                                                                                          |
+| free                                           | amount of free space                                                                                    |
+| ln                                             | Create hard and symbolic links                                                                          |
+| exit                                           | end terminal section                                                                                    |
+| type                                           | explains the type of command a shell will execute given a particular command                            |
+| alias (name='string')                          | Allows you to create your own command as long as the name isn't already in use. (no whitespace allowed) |
+| unalias (alias name)                           | Allows for removal of aliases                                                                           |
+Command= an executable program
+	- compiled binaries
+		- programs written in C and C++
+	- Scripting Languages
+		- shell, python etc.
+	- Shell functions
+	- *Alias*:  commands that we define ourselves, designed form other command
+	- You can link multiple commands together using ;
+	 ![[Pasted image 20260924101410.png]]
+	
+	- An Alias will disappear after the command prompt is closed.
+- arguments
+- Pipes
+- strings
+- options
 When using wildcards with rm (delete) you should probably test it with ls command first.
 	e.g. rm * .html may delete all the .html files. replace rm with ls to know what the targets would be ahead of time before making permanent damage.
 *Hard links* are the original Unix way of creating links.
@@ -59,4 +77,4 @@ When using wildcards with rm (delete) you should probably test it with ls comman
 	- delete the symbolic link only deletes the link, not the referenced file.
 	- delete the file, the link would persist but it would point to nothing.
 		- *broken link*
-		- 
+	

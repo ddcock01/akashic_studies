@@ -176,7 +176,7 @@ Many organizations replicate buckets to different destinations for disaster reco
 				-E.G replicate only failed objects
 
 - **S3 Transfer Acceleration: Bucket-level feature designed to speed up long-distance uploads/downloads between a client and S3 Bucket
-	- Utilizes [[Amazon CloudFront]] to route to the nearest [[Edge Location]]
+	- Utilizes [[Amazon Cloudfront (Content Delivery Network (CDN))]] to route to the nearest [[Edge Location]]
 	- [[Private AWS Backbone]]: utilizes internal, highly optimized, low-latency route via AWS Global Fiber Backbone
 	- Can be used as a high speed [[VPC Endpoints]]
 - Multi-Part Uploads

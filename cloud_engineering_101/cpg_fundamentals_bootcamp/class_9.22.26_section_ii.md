@@ -11,5 +11,5 @@ In Class Lab:
 - Instead, I had to create new directories/folders>repos then VIM into the folder, copy paste the text from here into the folder. Unfortunately, this means that this won't be up there. 
 Homework:
 - [x] Linux Killa Coda Lessons 6,7
-- [ ] The Linux Command Line: Read Chapters 4-5
+- [x] The Linux Command Line: Read Chapters 4-5
 - [x] [Github YT Video](https://www.youtube.com/watch?v=e9D7nnoCbQ0)
