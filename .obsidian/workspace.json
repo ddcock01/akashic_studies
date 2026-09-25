@@ -6,7 +6,7 @@
       {
         "id": "45a0fa6f9645582d",
         "type": "tabs",
-        "dimension": 26.40750670241287,
+        "dimension": 47.92225201072386,
         "children": [
           {
             "id": "d0ca8a8a9a43b926",
@@ -52,7 +52,7 @@
       {
         "id": "f5373f607521083d",
         "type": "tabs",
-        "dimension": 73.59249329758714,
+        "dimension": 52.07774798927613,
         "children": [
           {
             "id": "4aaf1f9c23cc6056",
@@ -88,12 +88,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_section_iii.md",
+                "file": "Terraform/Mastering Terraform and Infrastructure as Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "class_9.23.26_section_iii"
+              "title": "Mastering Terraform and Infrastructure as Code"
             }
           },
           {
@@ -116,12 +116,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.24.26.md",
+                "file": "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.24.26_section_iv.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "class_9.24.26"
+              "title": "class_9.24.26_section_iv"
             }
           }
         ],
@@ -194,8 +194,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f45f2dfbe3e8652c",
@@ -362,25 +361,29 @@
       "full-calendar-remastered:FCR Command": false
     }
   },
-  "active": "f5b1de4f24562252",
+  "active": "3d70f69ed33eb3a1",
   "lastOpenFiles": [
-    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.24.26.md",
+    "Terraform/Mastering Terraform and Infrastructure as Code.md",
+    "Terraform/-01-benefits-iac/vpc.tf",
+    "Terraform/-01-benefits-iac",
+    "Terraform/exercie02-terraform.md",
+    "05_Attachments/Pasted image 20260925073234.png",
+    "05_Attachments/Pasted image 20260925072335.png",
+    "05_Attachments/Pasted image 20260925071701.png",
+    "05_Attachments/Pasted image 20260925071632.png",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_section_iii.md",
+    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.24.26_section_iv.md",
+    "05_Attachments/Pasted image 20260924224501.png",
     "05_Attachments/Pasted image 20260924214504.png",
     "Python.md",
     "05_Attachments/Pasted image 20260924212055.png",
-    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_section_iii.md",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/fight_game.py",
     "05_Attachments/Pasted image 20260924202802.png",
     "05_Attachments/Pasted image 20260924195722.png",
     "05_Attachments/Pasted image 20260924181342.png",
-    "05_Attachments/Pasted image 20260924171830.png",
-    "05_Attachments/Pasted image 20260924171252.png",
     "gemini-scribe/Agent-Sessions/Agent Session 2026-09-24.md",
-    "05_Attachments/Pasted image 20260924165243.png",
     "Excalidraw/Drawing 2026-09-24 16.48.32.excalidraw.md",
     "Excalidraw",
-    "05_Attachments/Pasted image 20260924164753.png",
-    "05_Attachments/Pasted image 20260924164326.png",
     "05_Attachments/Python Distilled.pdf",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.22.26_section_ii.md",
     "cloud_engineering_101/Linux 101.md",
@@ -403,11 +406,8 @@
     "cloud_engineering_101/cpg_fundamentals_bootcamp/09_23_2026_script.sh~",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/09_23_2026_script.sh",
     "AWS/Management & Governance Services/Amazon CloudWatch.md",
-    "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.21.26_section_i.md",
     "cloud_engineering_101/cpg_fundamentals_bootcamp/class_9.23.26_Section_III",
     "cloud_engineering_101/cpg_fundamentals_bootcamp",
-    "cloud_engineering_101/cpg fundamentals bootcamp/class_9.23.26_Section_III",
-    "cloud_engineering_101/class_9.23.26_Section_III",
-    "class_9.23.26_Section_III"
+    "cloud_engineering_101/cpg fundamentals bootcamp/class_9.23.26_Section_III"
   ]
 }

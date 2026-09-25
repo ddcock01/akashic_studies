@@ -9,6 +9,8 @@
 ![[Pasted image 20260923171229.png]]
 
 ## Benefits of Infrastructure as Code
+
+![[Pasted image 20260925071632.png]]
 ### Better cost management
 - Resources, environments, and complex infrastructures can be easily created and destroyed.
 	- Just give the command
@@ -43,4 +45,35 @@
 ### Self documenting infrastructure
 
 
+## Why Terraform
 
+![[Pasted image 20260925071701.png]]
+
+## Terraform's Architecture
+
+- Terraform providers allow Terraform to know how to interact with remote APIs.
+- Providers provide the logic to interact with upstream APIs
+	- Read, create, update, and delete resources through their APIs
+![[Pasted image 20260925072335.png]]
+
+## Provisioning Infrastructure
+
+1. Plan
+	- State: in code the blueprint of the infrastructure
+	- Providers; contact 
+	- Plan
+2. Apply
+	- Plan
+	- Providers
+	- State
+3. Destroy
+	- State what is to be destroyed
+	- Providers: contacts providers to delete real-world objects
+
+![[Pasted image 20260925073234.png]]
+
+## Terraform Stages
+1. *Terraform Init*: initialize your working directory; preparing it for other Terraform commands.
+2. *Terraform Plan*: commands Terraform to acknowledge the plan of execution and the actions that are necessary to achieve the desired state specified in your configuration files.
+3. *Terraform Apply*: Once the plan has been review, this command will make the necessary actions to reach the desired state of your configuration.
+4. *Terraform Destroy*: Deletes/removes all resources created by Terraform configurations when it's no longer needed

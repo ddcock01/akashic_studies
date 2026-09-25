@@ -46,3 +46,12 @@ print(f"{enemy_name} now has {enemy_health} health.")
 check_enemy_status(enemy_name, enemy_health)
 
 ![[Pasted image 20260924214504.png]]
+
+git push before and after class
+
+![[Pasted image 20260924224501.png]]
+
+I had to go into [[GitHub]] and merge the python branch with the main branch. Originally, I traveled to the parent directory upstream and tried to push from there but it didn't work and needed some support. Stand still, stay calm and work through it. The solution is often times hidden in the problem.
+
+- [ ] Python distilled (Chapters 3-4) 
+- [ ] Python Killr Coda (Week 5)
