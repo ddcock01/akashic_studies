@@ -23,6 +23,8 @@ Common to use #! to specify the interpreter on the first line of a program
 	- Variables can not be punctuation
 		e.g. x = 42
 		think algebra
+
+HW: [Watch this](https://www.youtube.com/watch?v=fWjsdhR3z3c)
 Python source files are UTF-8-encoeded text files that normally have a .py suffix
 
 ![[Pasted image 20260924171252.png]]

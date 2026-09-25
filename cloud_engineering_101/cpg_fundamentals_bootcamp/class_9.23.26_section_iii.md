@@ -60,4 +60,4 @@ esac
 
 - [ ] Python distilled (Chapters 1-2)
 - [ ] Python Killa Coda (Week 1)
-- [ ] Python YT Video
+- [x] Python YT Video
