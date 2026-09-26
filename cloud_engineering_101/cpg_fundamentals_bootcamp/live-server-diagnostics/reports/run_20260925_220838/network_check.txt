@@ -1,0 +1,7 @@
+NETWORK CHECK
+=============
+Target host: localhost
+
+Ping status: FAILED
+
+Bad value for option -c.

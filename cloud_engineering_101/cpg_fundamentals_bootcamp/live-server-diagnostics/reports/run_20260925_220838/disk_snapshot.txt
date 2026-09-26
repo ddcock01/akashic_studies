@@ -1,0 +1,13 @@
+DISK SNAPSHOT
+=============
+Target path: /c/Users/ddcoc/Documents/TheoWAF/akashic_studies/cloud_engineering_101/cpg_fundamentals_bootcamp/live-server-diagnostics
+
+Filesystem usage:
+Filesystem      Size  Used Avail Use% Mounted on
+C:              476G  136G  341G  29% /c
+
+Directory size:
+35K	/c/Users/ddcoc/Documents/TheoWAF/akashic_studies/cloud_engineering_101/cpg_fundamentals_bootcamp/live-server-diagnostics
+
+File count:
+2
