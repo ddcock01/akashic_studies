@@ -1,0 +1,3 @@
+Remote backends allow collaboration whereas local state files are specific to one device; collaboration is not possible. 
+State locking is a crucial feature of most remote backends that prevents state corruption from concurrent runs.
+Inititally, you can't creat a remote backend using Terraform. You must create the remote backend first, then initiate terraform referencing that backend to store the State file remotely.

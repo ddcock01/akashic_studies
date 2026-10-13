@@ -79,6 +79,31 @@ Create a list be enclosing values in square brackets
 -  Program pcost.py shows how to read data into a list and performs a simple calculation
 
 
+## Terraform Language(s)
+### [[JSON]]
+- Used alternatively when portions of a configuration programmatically to perpare for generating configuration files.
+	- suffic .tf.json
 
+![[Pasted image 20260927090103.png]]
 
-
+| JSON    | Terraform Language Interpretation                                                                                                                             |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Boolean | A literal `bool` value.                                                                                                                                       |
+| Number  | A literal `number` value.                                                                                                                                     |
+| String  | Parsed as a [string template](https://developer.hashicorp.com/terraform/language/expressions/strings#string-templates) and then evaluated as described below. |
+| Object  | Each property value is mapped per this table, producing an `object(...)` value with suitable attribute types.                                                 |
+| Array   | Each element is mapped per this table, producing a `tuple(...)` value with suitable element types.                                                            |
+| Null    | A literal `null`.                                                                                                                                             |
+- JSON can be translated to it's native syntax configuration equivalent.
+![[Pasted image 20260927091159.png]]
+### JSON array
+	- JSON array: is an ordered list of values wrapped in []
+		- The brackets define the beginning and end of the array
+		- commas seperate each element
+		- Items that are numbered are indexed
+		- This is a universal data structure used to store, pass, or process multiple items of data together in a single field.
+### Comment Properties
+- limited form of comments are allowed inside JSON objects
+- // are used to add comments
+	- ignored by Terraform
+![[Pasted image 20260927092704.png]]

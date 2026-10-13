@@ -1,0 +1,4 @@
+# For illustration purposes, not actively used.
+bucket = "terra-test-state-file--use1-az4--x-s3"
+key    = "04-backends/prod/state.tfstate"
+region = "us-east-1"

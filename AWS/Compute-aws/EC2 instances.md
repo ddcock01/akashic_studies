@@ -111,69 +111,44 @@ The notes describe a multi-step process for launching and managing an EC2 instan
     
 
 - Always Terminate instances when finished to stop accumulating charges.
-    
 - Notes also mention Terraform Destroy, which is a "nuclear option" to destroy provisioned infrastructure code.
-    
 
 Troubleshooting Tips (Practical)
 
 From your Class 7 GitHub notes, add these two common "gotchas":  
 
 - Connection Timeout? Check your Security Group. You likely forgot to add an Inbound Rule for SSH (Port 22) or HTTP (Port 80) from your IP.  
-    
 - Site Can't Be Reached? Check your URL protocol. Browsers default to https://, but your basic server is likely on http://
-    
-
 ### 3. The Problem: "My EC2 server needs a high-performance hard drive."
 
 The Solution: [[Amazon Elastic Block Storage (EBS)]]
 
 - Type: Block Storage.
-    
 - What it solves: The need for persistence and performance for a single server. When you run an Operating System or a Database on an EC2 instance, it needs a drive that can handle fast, frequent edits (reads/writes).
-    
 - The "Form" details:
-    
-
 - Attached to one Instance: Generally, an EBS volume plugs into one EC2 instance at a time.
-    
 - Availability Zone (AZ) Locked: An EBS volume lives in one specific AZ. If your server is in us-east-1a, your hard drive must be in us-east-1a.
-    
 
 ### 4. The Problem: "I have 50 Linux servers that all need to edit the same files at the same time."
 
 The Solution: Amazon EFS (Elastic File System)
 
 - Type: Managed File System (NFS).
-    
 - What it solves: The limitation of EBS. Since EBS usually connects to only one server, you use EFS when you need Shared Storage.
-    
 - The "Form" details:
-    
-
 - Linux Native: It speaks the "NFS" language, which Linux servers understand natively.
-    
 - Elastic: It grows automatically as you add files. You don't need to provision size (unlike EBS, where you buy a specific GB amount).
-    
-
 ### 5. The Problem: "I need shared storage for Windows, or super-fast storage for complex math."
 
 The Solution: Amazon FSx
 
 - Type: Specialized File System.
-    
 - What it solves: The need for specific 3rd party protocols. EFS works great for Linux, but what if you use Windows? Or high-performance computing (HPC)?
-    
 - The "Form" details:
-    
-
 - FSx for Windows File Server: Built for applications that need the SMB protocol (standard Windows networking).
-    
 - FSx for Lustre: Built for High-Performance Computing (science labs, weather modeling) that need massive speeds.
-    
+
 
 Sources:
-
+[EC2 AMI Locator](https://cloud-images.ubuntu.com/locator/ec2/)
 [EC2 Concept Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
-
-**

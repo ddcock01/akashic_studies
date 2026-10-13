@@ -20,25 +20,30 @@ Git (The Tool):
 
 Key Git Commands and Concepts
 
-|                         |                                                                                                                                                  |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Command/Concept         | Purpose                                                                                                                                          |
-| pwd                     | Print Working Directory (shows where you are)                                                                                                    |
-| ls                      | List files and folders in the current directory                                                                                                  |
-| cd [folder]             | Change Directory (move into a folder).                                                                                                           |
-| cd ..                   | Move back (up) one folder level.                                                                                                                 |
-| mkdir [name]            | Make Directory (create a new folder).                                                                                                            |
-| touch [name]            | Create a new empty file.                                                                                                                         |
-| git init                | Creates a new Git repository in the current folder.                                                                                              |
-| git add <files(s)>      | Stages changes for the next commit.                                                                                                              |
-| git commit -m "message" | Creates a commit that includes all staged changes. A commit is a saved snapshot of the code.                                                     |
-| git push -u origin main | Pushes your local commits to the remote repository on GitHub (origin main).                                                                      |
-| git pull origin main    | downloads the latest updated version of a file so your local copy isn't outdated.                                                                |
-| git checkout <id>       | Temporarily moves to another commit or branch.                                                                                                   |
-| git revert              | Undoes changes of a commit and creates a new commit to record the undo operation.                                                                |
-| git reset --hard        | Undoes changes by deleting all commits since a specified point (use with extreme caution).                                                       |
-| .gitignore              | A file that specifies which files or folders should be ignored by Git (e.g., to prevent sensitive files like .tfstate from making it to GitHub). |
-| git clone               | Copy remote repository via URL from GitHub                                                                                                       |
+|                                       |                                                                                                                                                  |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Command/Concept                       | Purpose                                                                                                                                          |
+| pwd                                   | Print Working Directory (shows where you are)                                                                                                    |
+| git config --global --list            |                                                                                                                                                  |
+| git config --global core.editor "vim" |                                                                                                                                                  |
+| vi ~/.gitconfig                       |                                                                                                                                                  |
+| ls                                    | List files and folders in the current directory                                                                                                  |
+| cd [folder]                           | Change Directory (move into a folder).                                                                                                           |
+| cd ..                                 | Move back (up) one folder level.                                                                                                                 |
+| mkdir [name]                          | Make Directory (create a new folder).                                                                                                            |
+| touch [name]                          | Create a new empty file.                                                                                                                         |
+| git init                              | Creates a new Git repository in the current folder.                                                                                              |
+| git add <files(s)>                    | Stages changes for the next commit.                                                                                                              |
+| git commit -m "message"               | Creates a commit that includes all staged changes. A commit is a saved snapshot of the code.                                                     |
+| git push -u origin main               | Pushes your local commits to the remote repository on GitHub (origin main).                                                                      |
+| git pull origin main                  | downloads the latest updated version of a file so your local copy isn't outdated.                                                                |
+| git checkout <id>                     | Temporarily moves to another commit or branch.                                                                                                   |
+| git revert                            | Undoes changes of a commit and creates a new commit to record the undo operation.                                                                |
+| git reset --hard                      | Undoes changes by deleting all commits since a specified point (use with extreme caution).                                                       |
+| .gitignore                            | A file that specifies which files or folders should be ignored by Git (e.g., to prevent sensitive files like .tfstate from making it to GitHub). |
+| git fetch                             |                                                                                                                                                  |
+| git checkout                          | switch between branches                                                                                                                          |
+| git clone                             | Copy remote repository via URL from GitHub                                                                                                       |
 ## Pull Request
 A feature of a collaborative feature on platforms like GitHub
 
